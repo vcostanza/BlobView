@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout width="match_parent" height="match_parent" orientation="vertical">
+
+    <!-- Nav bar and options -->
+    <LinearLayout width="match_parent" height="wrap_content" orientation="horizontal" gravity="center_vertical" marginBottom="@dimen/auto_margin">
+        <ImageButton name="nav_back" src="nav_back" tip="Go back to the previous folder" style="@style/file_browser_button" marginRight="@dimen/auto_padding"/>
+        <ImageButton name="nav_forward" src="nav_forward" tip="Go forward to the previous folder" style="@style/file_browser_button" marginRight="@dimen/auto_padding"/>
+        <ComboBox name="common_places" width="0" height="wrap_content" weight="1" marginRight="@dimen/auto_padding" focusable="false"/>
+        <ImageButton name="nav_up" src="nav_up" tip="Navigate up a folder" style="@style/file_browser_button" marginRight="@dimen/auto_padding"/>
+        <ImageButton name="nav_home" src="home" tip="Go to home folder" style="@style/file_browser_button" marginRight="@dimen/auto_padding"/>
+        <ImageButton name="new_folder" src="new_folder" tip="Create new folder" style="@style/file_browser_button"/>
+    </LinearLayout>
+
+    <!-- Sort options -->
+    <LinearLayout width="match_parent" height="wrap_content" orientation="horizontal" gravity="center_vertical">
+        <SelectButton name="sort_name" width="0" height="wrap_content" weight="7" text="Name" tip="Sort by file name" focusable="false"/>
+        <SelectButton name="sort_size" width="0" height="wrap_content" weight="2" text="Size" tip="Sort by file size" focusable="false"/>
+        <SelectButton name="sort_date" width="0" height="wrap_content" weight="5" text="Date" tip="Sort by modification date" focusable="false"/>
+    </LinearLayout>
+
+    <!-- File list -->
+    <ListView name="file_table" width="match_parent" height="0" weight="1" background="@color/gray43" marginBottom="@dimen/auto_margin"/>
+
+    <!-- File name and type filter -->
+    <TableLayout width="match_parent" height="wrap_content" orientation="vertical">
+        <TableRow width="match_parent" height="wrap_content" orientation="horizontal" gravity="center_vertical" marginBottom="@dimen/auto_padding">
+            <TextView text="File Name:" marginRight="@dimen/auto_margin"/>
+            <EditText name="file_name" width="0" height="wrap_content" weight="1" hint="File name"/>
+        </TableRow>
+        <TableRow width="match_parent" height="wrap_content" orientation="horizontal" gravity="center_vertical">
+            <TextView text="File Type:" marginRight="@dimen/auto_margin"/>
+            <ComboBox name="file_type" width="0" height="wrap_content" weight="1" focusable="false"/>
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

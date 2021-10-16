@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout width="match_parent" height="match_parent" orientation="vertical">
+
+    <EditText name="searchText" width="match_parent" height="wrap_content" hint="Enter search terms"/>
+    <ScrollLayout width="match_parent" height="0" weight="1" background="@color/gray43">
+        <JList name="list" width="match_parent" height="wrap_content"/>
+    </ScrollLayout>
+
+</LinearLayout>

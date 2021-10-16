@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout width="match_parent" height="wrap_content" orientation="vertical">
+    <TextView name="message" width="match_parent" height="wrap_content" visible="false" marginBottom="@dimen/auto_padding"/>
+    <JProgressBar name="progressBar" width="match_parent" height="30px" maximum="100" stringPainted="true"/>
+</LinearLayout>

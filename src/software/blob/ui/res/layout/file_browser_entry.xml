@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<TableRow width="match_parent" height="wrap_content" orientation="horizontal" gravity="center_vertical" padding="2px">
+    <ImageView name="icon" width="16px" height="16px" icon="new_file" marginRight="2px"/>
+    <TextView name="name" width="0" height="wrap_content" weight="1"/>
+    <TextView name="size" width="wrap_content" height="wrap_content"/>
+    <TextView name="date" width="wrap_content" height="wrap_content"/>
+</TableRow>

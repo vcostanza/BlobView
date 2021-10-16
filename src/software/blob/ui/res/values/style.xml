@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="file_browser_button">
+        <item name="width">32px</item>
+        <item name="height">32px</item>
+        <item name="padding">8px</item>
+        <item name="background">@color/gray43</item>
+    </style>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout name="rootLayout" width="match_parent" height="match_parent" orientation="vertical" padding="@dimen/auto_margin" background="@color/background">
+
+    <ScrollLayout width="match_parent" height="0" weight="1" unitIncrement="16" scrollbars="vertical" background="@color/gray43">
+        <LinearLayout name="textLayout" width="match_parent" height="wrap_content" background="@color/gray43">
+            <TextView name="htmlText" width="match_parent" height="wrap_content"/>
+        </LinearLayout>
+    </ScrollLayout>
+
+    <LinearLayout name="buttonLayout" width="match_parent" height="wrap_content" gravity="end" marginTop="5px">
+        <SelectButton name="okButton" width="100px" height="30px" text="OK"/>
+    </LinearLayout>
+
+</LinearLayout>

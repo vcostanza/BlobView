@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout width="match_parent" height="match_parent" orientation="vertical" padding="@dimen/auto_margin" background="@color/background">
+
+    <LinearLayout name="rootContainer" width="match_parent" height="0" weight="1" orientation="vertical">
+        <!-- setView layout goes here -->
+    </LinearLayout>
+
+    <LinearLayout name="footer" width="match_parent" height="wrap_content" orientation="horizontal" gravity="end" marginTop="@dimen/auto_margin">
+        <SelectButton name="okBtn" width="60px" height="30px" text="OK" marginRight="@dimen/auto_margin"/>
+        <SelectButton name="cancelBtn" width="60px" height="30px" text="Cancel"/>
+    </LinearLayout>
+
+</LinearLayout>
